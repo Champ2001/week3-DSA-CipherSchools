@@ -106,7 +106,6 @@ bool dfsCheck(int node, vector<int> adj[], int vis[], int pathVis[]) {
 		pathVis[node] = 0;
 		return false;
 	}
-public:
 	bool isCyclic(int V, vector<int> adj[]) {
 		int vis[V] = {0};
 		int pathVis[V] = {0};
